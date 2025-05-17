@@ -1,0 +1,92 @@
+.profileContainer {
+  position: fixed;
+  left: 120px; /* Initial position aligned with collapsed sidebar */
+  padding: 20px;
+  transition: left 0.3s ease; /* Smooth transition for movement */
+}
+
+.profileContainer.expanded {
+  left: 240px; /* Move right when sidebar is expanded */
+}
+
+.profileImage2 {
+  height: calc(100vh - 40px);
+  width: 400px;
+  
+  object-fit: cover;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 400px;
+}
+
+.nameOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  text-align: center;
+  background-color: #00000023;
+}
+
+.nameOverlay h2 {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.nameOverlay p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+
+
+@media screen and (max-width: 780px) {
+  .profileContainer {
+    height: 400px;
+    /* padding: 10px; */
+    /* display: fixed; */
+  }
+  
+
+  
+  .profileImage2,
+  .imageWrapper {
+    left: -80px;
+    width: 100%;
+    height: 480px;
+  }
+  
+  .nameOverlay h2 {
+    font-size: 20px;
+  }
+  
+  .nameOverlay p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profileImage2,
+  .imageWrapper {
+    width: 250px;
+    height: 370px;
+  }
+  
+  .nameOverlay {
+    padding: 10px;
+  }
+  
+  .nameOverlay h2 {
+    font-size: 18px;
+  }
+  
+  .nameOverlay p {
+    font-size: 12px;
+  }
+}
