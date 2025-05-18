@@ -13,7 +13,7 @@ function ProfilePic({ isExpanded }) {
         />
         <div className={styles.nameOverlay}>
           <h1>MD Faisal Hossain</h1>
-          <h5>Hello! I'm a passionate developer with expertise in web development</h5>
+          <h5>Hello! My name is Md Faisal Hossain. I'm a passionate developer with expertise in web development</h5>
         </div>
       </div>
     </div>

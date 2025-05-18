@@ -4,7 +4,7 @@ function AboutMe({ isExpanded }) {
   return (
     <div className={`${styles.aboutContainer} ${isExpanded ? styles.expanded : ''}`}>
       <h2>About Me</h2> 
-      <p>Hello! I'm a passionate developer with expertise in web development.</p>
+      <p>Hello! My name is Md Faisal Hossain. I'm a passionate developer with expertise in web development.</p>
       <br />
       <h5>I am a software engineer with 2+ years of experience at DreamOnline Ltd. and Adanture Dhaka Ltd., both Japanese-based IT companies in Bangladesh. 
         My expertise includes JavaScript, PHP, HTML, CSS, and more. <br />
