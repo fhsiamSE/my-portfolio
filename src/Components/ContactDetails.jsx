@@ -19,13 +19,13 @@ function ContactDetails({ isExpanded }) {
             <h3>Email</h3>
           </div>
             </a>
-            <a href="https://www.facebook.com/your.profile">
+            <a href="https://www.facebook.com/share/1CEGEw1BJ1/?mibextid=wwXIfr">
           <div className={styles.contactCard}>
             <AiFillFacebook className={styles.contactIcon} />
             <h3>Facebook</h3>
           </div>
             </a>
-            <a href="https://www.linkedin.com/in/your-profile">
+            <a href="https://www.linkedin.com/in/faisal-hossain-siam?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
           <div className={styles.contactCard}>
             <AiFillLinkedin className={styles.contactIcon} />
             <h3>LinkedIn</h3>
