@@ -57,7 +57,7 @@
   .imageWrapper {
     width: 100%;
     height: 300px;
-    max-width: 469px;   /* Optional: limit max width on tablets */
+    max-width: 469px;  
     left: -80px;
   }
   .nameOverlay h1 {
@@ -69,12 +69,12 @@
 }
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .profileImage2,
   .imageWrapper {
-     width: 100%;
-    height: 400px;
-    max-width: 269px;   /* Optional: limit max width on tablets */
-    left: -80px;
+    width: 130%;
+    height: max-content;
+    max-width: 269px;  
+    left: -160px;
   }
-}
+} */
